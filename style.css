@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100&display=swap");
+@import url(./css/header.css);
+@import url(./css/post.css);
+@import url(./css/historias.css);
+@import url(./css/photos.css);
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --grayColor: #eaebf3;
+  --fontFamily: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--grayColor);
+  font-family: var(--fontFamily);
+}
+
+h4 {
+  margin: 0;
+}
+
+section.container-profile {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-width: 500px;
+  width: fit-content;
+  border-radius: 50px;
+  background: #e0e0e0;
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+@media screen and (max-width: 650px) {
+  section.container-profile {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    border-radius: 0;
+    margin-top: 0;
+  }
+}

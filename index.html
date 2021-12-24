@@ -1,14 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Resideño de instagram con Neomorfismo</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resideño de instagram con Neomorfismo</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/instagramx64.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="/style.css" />
     <script src="/main.js" defer></script>
   </head>
   <body>
-    <h2>hola mundo</h2>
+    <section class="container-profile">
+      <header class="header">
+        <div class="icons">
+          <button class="btn-action">
+            <img src="./assets/edit.svg" alt="" />
+          </button>
+        </div>
+        <div class="icons message-icon">
+          <button class="btn-action bottom-icons">
+            <img src="./assets/message.svg" alt="" />
+          </button>
+          <div class="notification"></div>
+        </div>
+        <div class="container-avatar">
+          <figure class="avatar">
+            <img
+              src="https://avatars.githubusercontent.com/u/83417061?v=4"
+              alt=""
+            />
+          </figure>
+          <p class="name" id="user-name"></p>
+        </div>
+        <div class="icons heart-icon">
+          <button class="btn-action bottom-icons">
+            <img src="./assets/heart.svg" alt="" />
+          </button>
+        </div>
+        <div class="icons">
+          <button class="btn-action">
+            <img src="./assets/setting.svg" alt="" />
+          </button>
+        </div>
+      </header>
+      <section class="post">
+        <section class="count-post">
+          <span class="bold-data">10</span>
+          <p>Post</p>
+        </section>
+        <section class="follower-post">
+          <span class="bold-data">80</span>
+          <p>Followers</p>
+        </section>
+        <section class="following-post">
+          <span class="bold-data">48</span>
+          <p>Following</p>
+        </section>
+      </section>
+      <section class="historis">
+        <section class="historias-post">
+          <figure>
+            <img
+              src="https://cdn.pixabay.com/photo/2019/07/14/16/27/pen-4337521__340.jpg"
+              alt=""
+            />
+          </figure>
+          <span>Code</span>
+        </section>
+        <section class="historias-post">
+          <figure>
+            <img
+              src="https://cdn.pixabay.com/photo/2014/10/14/20/24/soccer-488700__340.jpg"
+              alt=""
+            />
+          </figure>
+          <span>Futbol</span>
+        </section>
+        <section class="historias-post">
+          <figure>
+            <img
+              src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400__340.png"
+              alt=""
+            />
+          </figure>
+          <span>Javascript</span>
+        </section>
+        <section class="historias-post">
+          <figure>
+            <img
+              src="https://cdn.pixabay.com/photo/2020/01/26/20/14/computer-4795762__340.jpg"
+              alt=""
+            />
+          </figure>
+          <span>Tech</span>
+        </section>
+        <section class="historias-post">
+          <figure>
+            <img
+              src="https://cdn.pixabay.com/photo/2018/01/28/10/59/internet-3113279__340.jpg"
+              alt=""
+            />
+          </figure>
+          <span>Social</span>
+        </section>
+      </section>
+      <section class="photos" id="photos"></section>
+    </section>
   </body>
 </html>

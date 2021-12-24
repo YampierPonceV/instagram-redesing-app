@@ -1,0 +1,32 @@
+.historis {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.historias-post {
+  text-align: center;
+}
+
+.historias-post figure {
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  padding: 3px;
+  /* background: #e0e0e0; */
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.historias-post figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.historias-post span {
+  font-size: 12px;
+  letter-spacing: -1px;
+}
