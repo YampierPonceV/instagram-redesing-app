@@ -1,7 +1,7 @@
 const BASE_URL = "https://graph.instagram.com/me";
 
 const access_token =
-  "IGQVJYSW5DY2JWZAEp3aU15Qk52TENBREQ0ZAGFKd1cxVkg5anZAsYjY3TGp1ZAnNrUUdndi1YY3J4dzBRZA2xPUmF4bUVrLTZAjZA1NQS1JETGpOUHZAzVmQtOWJ6MHJWOFlEOGx5cGVfX2l0S0kxakJ6SHYySmFfZA2ZARVE9aWkVB";
+  "IGQVJXSFhqMGdtdHBUTFJWaWlNNHRQQk9SWUFBU0NXblNHODQ3My1hMzVWRDExLXAzLUZAwaTQyamF6bm9ISG8wdkRBcmdhN3FTU21FTDZAid0xtbkJyRkdrSk84aHZAUWi1YYVRGR3JnTm5oVFVyeGY1QU02QXItbEw1NlRN";
 
 const createPhotosDom = ({ data }) => {
   const $sectionPhotos = document.getElementById("photos");
